@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BLOCKCHAIN_BLOCK_H
+#define BLOCKCHAIN_BLOCK_H
 
 #include <cstdint>
 #include <iostream>
@@ -26,3 +27,5 @@ private:
 	
 	string _CalculateHash() const;
 };
+
+#endif

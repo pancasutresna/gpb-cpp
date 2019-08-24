@@ -1,6 +1,5 @@
-
 #include "Block.h"
-#include "picosha2.h"
+#include "crypto/picosha2.h"
 
 
 Block::Block(uint32_t nIndexIn, const string &sDataIn) : 

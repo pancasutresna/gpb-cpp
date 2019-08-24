@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BLOCKCHAIN_BLOCKCHAIN_H
+#define BLOCKCHAIN_BLOCKCHAIN_H
 
 #include <cstdint>
 #include <vector>
@@ -18,3 +19,6 @@ private:
 
 	Block _GetLastBlock() const;
 };
+
+
+#endif

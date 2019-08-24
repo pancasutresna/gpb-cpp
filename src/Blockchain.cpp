@@ -1,6 +1,6 @@
 #include "Blockchain.h"
 
-Blockchain::Blockchain() {
+Blockchain::Blockchain() { 
 	_vChain.emplace_back(Block(0, "Genesis Block"));
 	_nDifficulty = 4;
 }
@@ -12,5 +12,7 @@ void Blockchain::AddBlock(Block bNew) {
 }
 
 Block Blockchain::_GetLastBlock() const {
+	
+	
 	return _vChain.back();
 }
