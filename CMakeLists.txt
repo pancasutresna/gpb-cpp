@@ -11,4 +11,4 @@ add_executable(Blockchain
         src/Blockchain.cpp
         src/Blockchain.h
         src/main.cpp
-        src/crypto/picosha2.h src/type/uint256.h)
+        src/crypto/picosha2.h src/type/uint256.h src/type/uint256.cpp src/util/strencodings.h src/attributes.h)

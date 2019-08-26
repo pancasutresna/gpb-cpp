@@ -1,5 +1,5 @@
-#ifndef BLOCKCHAIN_BLOCK_H
-#define BLOCKCHAIN_BLOCK_H
+#ifndef BLOCKCHAIN_SRC_BLOCK_H
+#define BLOCKCHAIN_SRC_BLOCK_H
 
 #include <cstdint>
 #include <iostream>
@@ -28,4 +28,4 @@ private:
 	string _CalculateHash() const;
 };
 
-#endif
+#endif //BLOCKCHAIN_SRC_BLOCK_H
